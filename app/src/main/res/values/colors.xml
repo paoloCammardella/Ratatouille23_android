@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_color">#85E450</color>
+    <color name="brand_color_low_emphasis">#5585E450</color>
+    <color name="accent">#4CAF50</color>
+    <color name="dark_grey">#333333</color>
+    <color name="light_grey">#555555</color>
+    <color name="white">#F5F5F5</color>
+    <color name="light_green">#E8F5E9</color>
+</resources>

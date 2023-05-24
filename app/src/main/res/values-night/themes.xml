@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Ratatouille23" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorPrimary">@color/accent</item>
+        <item name="android:windowBackground">@color/dark_grey</item>
+        <item name="android:textColor">@color/light_green</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextColor">@color/accent</item>
+        <item name="boxStrokeColor">@color/accent</item>
+        <item name="android:textColorHint">@color/light_grey</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="errorEnabled">true</item>
+        <item name="counterEnabled">false</item>
+    </style>
+</resources>
