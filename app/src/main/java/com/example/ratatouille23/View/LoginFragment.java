@@ -1,4 +1,4 @@
-package com.example.ratatouille23;
+package com.example.ratatouille23.View;
 
 import android.os.Bundle;
 
@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.ratatouille23.R;
 import com.google.android.material.button.MaterialButton;
 
 public class LoginFragment extends Fragment {
