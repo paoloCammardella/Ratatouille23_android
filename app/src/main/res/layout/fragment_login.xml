@@ -17,10 +17,10 @@
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/text_input_nickname"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginHorizontal="10sp"
             style="@style/TextInputLayoutStyle"
-            app:startIconDrawable="@drawable/person"
-            android:layout_height="wrap_content">
+            app:startIconDrawable="@drawable/person">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -32,10 +32,10 @@
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/text_input_password"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginHorizontal="10sp"
             style="@style/TextInputLayoutStyle"
             app:startIconDrawable="@drawable/baseline_lock_24"
-            android:layout_height="wrap_content"
             app:passwordToggleEnabled="true">
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -46,16 +46,10 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/loginButton"
-            style="@style/Widget.Material3.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10sp"
-            android:backgroundTint="@color/brand_color"
-            android:fontFamily="@font/rubik_medium"
-            android:text="@string/login"
-            android:textAllCaps="true"
-            android:textColor="@color/dark_grey"
-            app:cornerRadius="5sp"
-            app:shapeAppearance="@style/ShapeAppearance.Material3.SmallComponent" />
+            style="@style/ButtonHighEmphasis"
+            android:text="@string/login"/>
     </LinearLayout>
 </FrameLayout>
