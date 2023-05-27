@@ -5,4 +5,8 @@
     <string name="password">password</string>
     <string name="nickname">nickname</string>
     <string name="login">Login</string>
+    <string name="home">Home</string>
+    <string name="tables">Tables</string>
+    <string name="restaurant_men">Restaurant menù</string>
+    <string name="add_personal">Add personal</string>
 </resources>
