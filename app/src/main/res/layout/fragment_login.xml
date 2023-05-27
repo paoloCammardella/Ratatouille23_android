@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".View.LoginFragment"
-    >
+    android:background="@drawable/sfondo"
+    tools:context=".View.LoginFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,29 +14,45 @@
         android:orientation="vertical"
         tools:ignore="UselessParent">
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/text_input_nickname"
+        <com.google.android.material.textview.MaterialTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10sp"
+            android:text="Benvenuto in"
+            android:textSize="32sp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10sp"
+            android:text="Ratatouille23"
+            android:textColor="@color/brand_color"
+            android:textSize="48sp"
+            android:layout_marginBottom="200dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_input_nickname"
             style="@style/TextInputLayoutStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10sp"
             app:startIconDrawable="@drawable/person">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/nickname"
-                />
+                android:hint="@string/nickname" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/text_input_password"
+            style="@style/TextInputLayoutStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10sp"
-            style="@style/TextInputLayoutStyle"
-            app:startIconDrawable="@drawable/baseline_lock_24"
-            app:passwordToggleEnabled="true">
+            app:passwordToggleEnabled="true"
+            app:startIconDrawable="@drawable/baseline_lock_24">
+
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -46,10 +62,10 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/loginButton"
+            style="@style/ButtonHighEmphasis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10sp"
-            style="@style/ButtonHighEmphasis"
-            android:text="@string/login"/>
+            android:text="@string/login" />
     </LinearLayout>
 </FrameLayout>

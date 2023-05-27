@@ -17,8 +17,17 @@
         <item name="counterEnabled">false</item>
     </style>
 
+    <style name="ButtonHighHighEmphasis" parent="Widget.Material3.Button.ElevatedButton">
+        <item name="android:buttonStyle">@style/Widget.Material3.Button.ElevatedButton</item>
+        <item name="android:backgroundTint">@color/brand_color</item>
+        <item name="android:fontFamily">@font/rubik_medium</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="cornerRadius">5sp</item>
+    </style>
+
     <style name="ButtonHighLowEmphasis" parent="Widget.Material3.Button.ElevatedButton">
-        <item name="android:buttonStyle">@style/Widget.Material3.Button</item>
+        <item name="android:buttonStyle">@style/Widget.Material3.Button.ElevatedButton</item>
         <item name="android:backgroundTint">@color/brand_color_low_emphasis</item>
         <item name="android:fontFamily">@font/rubik_medium</item>
         <item name="android:textAllCaps">true</item>
