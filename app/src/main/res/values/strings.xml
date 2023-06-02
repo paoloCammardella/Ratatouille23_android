@@ -3,12 +3,12 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="password">password</string>
-    <string name="nickname">nickname</string>
-    <string name="login">Login</string>
+    <string name="nickname">e-mail</string>
+    <string name="login">Accedi</string>
     <string name="home">Home</string>
-    <string name="tables">Tables</string>
-    <string name="restaurant_men">Restaurant menù</string>
-    <string name="add_personal">Add personal</string>
+    <string name="tables">Tavoli</string>
+    <string name="restaurant_men">Menù</string>
+    <string name="add_personal">Aggiungi personale</string>
     <string name="notifiche">Notifiche</string>
     <string name="e_mail">e-mail</string>
 </resources>

@@ -14,6 +14,7 @@
         <item name="hintTextColor">@color/accent</item>
         <item name="boxStrokeColor">@color/accent</item>
         <item name="android:textColorHint">@color/light_grey</item>
+        <item name="startIconTint">@color/accent</item>
         <item name="boxStrokeWidth">1dp</item>
         <item name="errorEnabled">true</item>
         <item name="counterEnabled">false</item>

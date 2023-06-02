@@ -11,6 +11,7 @@
     <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="hintTextColor">@color/accent</item>
         <item name="boxStrokeColor">@color/accent</item>
+        <item name="startIconTint">@color/accent</item>
         <item name="android:textColorHint">@color/light_grey</item>
         <item name="boxStrokeWidth">1dp</item>
         <item name="errorEnabled">true</item>
