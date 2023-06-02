@@ -8,6 +8,8 @@
         <item name="android:fontFamily">@font/rubik</item>
     </style>
 
+
+
     <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="hintTextColor">@color/accent</item>
         <item name="boxStrokeColor">@color/accent</item>
@@ -15,6 +17,7 @@
         <item name="boxStrokeWidth">1dp</item>
         <item name="errorEnabled">true</item>
         <item name="counterEnabled">false</item>
+        <item name="startIconTint">@color/accent</item>
     </style>
     
     <style name="ButtonHighEmphasis" parent="Widget.Material3.Button.ElevatedButton">

@@ -31,7 +31,7 @@
             android:layout_marginBottom="200dp"/>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/text_input_nickname"
+            android:id="@+id/text_input_e_mail"
             style="@style/TextInputLayoutStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/nickname" />
+                android:hint="@string/e_mail" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -51,6 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10sp"
             app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/accent"
             app:startIconDrawable="@drawable/baseline_lock_24">
 
             <com.google.android.material.textfield.TextInputEditText
