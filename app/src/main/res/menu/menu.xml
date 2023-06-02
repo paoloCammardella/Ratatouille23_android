@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:title="@string/home" android:id="@+id/HomeBtn" android:icon="@drawable/baseline_home_24">
+    <item
+        android:id="@+id/NotificationBtn"
+        android:icon="@drawable/baseline_notifications_24"
+        android:title="@string/notifiche"
+        >
+        Home
     </item>
-    <item android:title="@string/tables" android:id="@+id/TablesBtn" android:icon="@drawable/baseline_table_bar_24">Home</item>
-    <item android:title="@string/restaurant_men" android:id="@+id/MenuBtn" android:icon="@drawable/baseline_restaurant_menu_24">Home</item>
-    <item android:title="@string/add_personal" android:id="@+id/AddPersonalBtn" android:icon="@drawable/baseline_person_add_alt_1_24">Home</item>
+    <item
+        android:id="@+id/TablesBtn"
+        android:icon="@drawable/baseline_table_bar_24"
+        android:title="@string/tables">Home
+    </item>
+    <item
+        android:id="@+id/MenuBtn"
+        android:icon="@drawable/baseline_restaurant_menu_24"
+        android:title="@string/restaurant_men">Home
+    </item>
+    <item
+        android:id="@+id/AddPersonalBtn"
+        android:icon="@drawable/baseline_person_add_alt_1_24"
+        android:title="@string/add_personal">Home
+    </item>
 
 </menu>

@@ -10,4 +10,6 @@
     <color name="dark_bg">#404944</color>
     <color name="light_bg">#F6FDED</color>
     <color name="mtrl_textinput_default_box_stroke_color">@color/accent</color>
+    <color name="dialog_bg">#D8F0D1</color>
+    <color name="transparent">#00000000</color>
 </resources>

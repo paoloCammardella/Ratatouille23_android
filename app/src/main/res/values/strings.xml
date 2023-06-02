@@ -8,7 +8,7 @@
     <string name="home">Home</string>
     <string name="tables">Tavoli</string>
     <string name="restaurant_men">Menù</string>
-    <string name="add_personal">Aggiungi personale</string>
+    <string name="add_personal">Personale</string>
     <string name="notifiche">Notifiche</string>
     <string name="e_mail">e-mail</string>
 </resources>

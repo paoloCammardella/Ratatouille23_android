@@ -4,19 +4,35 @@
         <item name="colorAccent">@color/accent</item>
         <item name="colorPrimary">@color/accent</item>
         <item name="android:windowBackground">@color/dark_bg</item>
-        <item name="android:textColor">@color/light_green</item>
+        <item name="android:textColor">@color/light_bg</item>
         <item name="android:fontFamily">@font/rubik</item>
     </style>
 
     <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="hintTextColor">@color/accent</item>
         <item name="boxStrokeColor">@color/accent</item>
+        <item name="android:textColorHint">@color/light_bg</item>
         <item name="startIconTint">@color/accent</item>
-        <item name="android:textColorHint">@color/light_grey</item>
         <item name="boxStrokeWidth">1dp</item>
         <item name="errorEnabled">true</item>
         <item name="counterEnabled">false</item>
-        <item name="startIconTint">@color/accent</item>
+    </style>
+
+    <style name="customIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/dialog_bg</item>
+        <item name="labelBehavior">floating</item>
+    </style>
+
+    <style name="BottomBar" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@drawable/round_back_home_light</item>
+        <item name="itemActiveIndicatorStyle">@style/customIndicator</item>
+        <item name="itemIconTint">@color/dark_bg</item>
+        <item name="itemTextColor">@color/dark_bg</item>
+        <item name="iconSize">30sp</item>
+        <item name="labelVisibilityMode">selected</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
     </style>
 
     <style name="ButtonHighHighEmphasis" parent="Widget.Material3.Button.ElevatedButton">
