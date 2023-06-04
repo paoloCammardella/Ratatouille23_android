@@ -11,4 +11,8 @@
     <string name="add_personal">Personale</string>
     <string name="notifiche">Notifiche</string>
     <string name="e_mail">e-mail</string>
+    <string name="cognome">cognome</string>
+    <string name="nome">nome</string>
+    <string name="aggiungi_personale">aggiungi personale</string>
+    <string name="ruolo">ruolo</string>
 </resources>

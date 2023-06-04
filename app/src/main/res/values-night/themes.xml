@@ -19,14 +19,14 @@
     </style>
 
     <style name="customIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
-        <item name="android:color">@color/dialog_bg</item>
+        <item name="android:color">@color/dark_bg</item>
         <item name="labelBehavior">floating</item>
     </style>
 
     <style name="BottomBar" parent="Widget.Material3.BottomNavigationView">
         <item name="android:background">@drawable/round_back_home_light</item>
         <item name="itemActiveIndicatorStyle">@style/customIndicator</item>
-        <item name="itemIconTint">@color/dark_bg</item>
+        <item name="itemIconTint">@color/nav_color_dark</item>
         <item name="itemTextColor">@color/dark_bg</item>
         <item name="iconSize">30sp</item>
         <item name="labelVisibilityMode">selected</item>
@@ -35,21 +35,32 @@
         <item name="android:layout_marginBottom">5dp</item>
     </style>
 
-    <style name="ButtonHighHighEmphasis" parent="Widget.Material3.Button.ElevatedButton">
-        <item name="android:buttonStyle">@style/Widget.Material3.Button.ElevatedButton</item>
+    <style name="ButtonHighEmphasis" parent="Widget.Material3.Button.ElevatedButton">
         <item name="android:backgroundTint">@color/brand_color</item>
+        <!--    text style   -->
         <item name="android:fontFamily">@font/rubik_medium</item>
         <item name="android:textAllCaps">true</item>
-        <item name="android:textColor">@color/dark_grey</item>
-        <item name="cornerRadius">5sp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_bg</item>
+        <!--    corner  -->
+        <item name="cornerRadius">10sp</item>
     </style>
 
-    <style name="ButtonHighLowEmphasis" parent="Widget.Material3.Button.ElevatedButton">
-        <item name="android:buttonStyle">@style/Widget.Material3.Button.ElevatedButton</item>
-        <item name="android:backgroundTint">@color/brand_color_low_emphasis</item>
+    <style name="ButtonLowEmphasis" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:backgroundTint">@color/transparent</item>
+        <!--    text style   -->
         <item name="android:fontFamily">@font/rubik_medium</item>
         <item name="android:textAllCaps">true</item>
-        <item name="android:textColor">@color/dark_grey</item>
-        <item name="cornerRadius">5sp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/brand_color</item>
+        <!--    corner  -->
+        <item name="strokeColor">@color/brand_color</item>
+        <item name="cornerRadius">10sp</item>
+    </style>
+
+    <style name="mySpinner" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/light_bg</item>
     </style>
 </resources>

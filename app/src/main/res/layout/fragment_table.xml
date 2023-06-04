@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tableFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tableFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/screenTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/tables"
+            android:textColor="@color/brand_color"
+            android:textSize="32sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/notificationList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/screenTitle"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="70sp"
+            android:divider="@color/transparent"
+            android:dividerHeight="10dp"
+            android:scrollbars="vertical"
+            tools:listitem="@layout/table_item">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </RelativeLayout>
+
+</FrameLayout>

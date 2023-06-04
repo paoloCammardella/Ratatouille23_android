@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menuFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/screenTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/restaurant_men"
+            android:textColor="@color/brand_color"
+            android:textSize="32sp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/primi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/screenTitle"
+            android:text="primi" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/primiList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/primi"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="70sp"
+            android:divider="@color/transparent"
+            android:dividerHeight="10dp"
+            android:scrollbars="vertical"
+            tools:listitem="@layout/normal_item" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/secondi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/primiList"
+            android:text="secondi" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/secondiList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/secondi"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="70sp"
+            android:divider="@color/transparent"
+            android:dividerHeight="10dp"
+            android:scrollbars="vertical"
+            tools:listitem="@layout/normal_item" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/dessert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/secondiList"
+            android:text="dessert" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/dessertList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dessert"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="70sp"
+            android:divider="@color/transparent"
+            android:dividerHeight="10dp"
+            android:scrollbars="vertical"
+            tools:listitem="@layout/normal_item" />
+    </RelativeLayout>
+</FrameLayout>

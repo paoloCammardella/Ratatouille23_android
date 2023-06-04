@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/NotificationBtn"
+        android:id="@id/notificationFragment"
         android:icon="@drawable/baseline_notifications_24"
-        android:title="@string/notifiche"
-        >
-        Home
+        android:title="@string/notifiche">Notifiche
     </item>
     <item
-        android:id="@+id/TablesBtn"
+        android:id="@id/tableFragment"
         android:icon="@drawable/baseline_table_bar_24"
-        android:title="@string/tables">Home
+        android:title="@string/tables">Tavoli
     </item>
     <item
-        android:id="@+id/MenuBtn"
+        android:id="@id/menuFragment"
         android:icon="@drawable/baseline_restaurant_menu_24"
-        android:title="@string/restaurant_men">Home
+        android:title="@string/restaurant_men">Menu
     </item>
     <item
-        android:id="@+id/AddPersonalBtn"
+        android:id="@id/personalFragment"
         android:icon="@drawable/baseline_person_add_alt_1_24"
-        android:title="@string/add_personal">Home
+        android:title="@string/add_personal">Personale
     </item>
 
 </menu>
