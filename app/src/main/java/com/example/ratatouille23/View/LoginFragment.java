@@ -5,6 +5,7 @@ import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
 
+import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -25,7 +26,7 @@ public class LoginFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_login, container, false);
         loginBtn = view.findViewById(R.id.loginButton);
-        loginBtn.setOnClickListener(view1 -> Navigation.findNavController(view).navigate(R.id.notificationFragment));
+        loginBtn.setOnClickListener(view1 -> Navigation.findNavController(view).navigate(R.id.action_loginFragment_to_notificationFragment));
         return view;
     }
 }
