@@ -33,20 +33,11 @@ public class NotificationFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-//        this.getView().setOnKeyListener((view, i, keyEvent) -> {
-//            if(keyEvent.equals(KeyEvent.KEYCODE_BACK)){
-//                return false;
-//            }
-//            else return true;
-//        });
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        BottomNavigationView navBar = getActivity().findViewById(R.id.bottomBar);
-        navBar.setVisibility(View.VISIBLE);
 
 //
 //        tableList = getActivity().findViewById(R.id.notificationList);

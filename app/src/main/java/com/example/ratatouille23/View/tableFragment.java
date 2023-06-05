@@ -1,4 +1,4 @@
-package com.example.ratatouille23;
+package com.example.ratatouille23.View;
 
 import android.os.Bundle;
 
@@ -8,9 +8,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.example.ratatouille23.R;
 
-public class PersonalFragment extends Fragment {
+public class tableFragment extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -21,6 +21,6 @@ public class PersonalFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_personal, container, false);
+        return inflater.inflate(R.layout.fragment_table, container, false);
     }
 }

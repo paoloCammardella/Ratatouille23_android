@@ -26,10 +26,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10sp"
+            android:layout_marginBottom="200dp"
             android:text="Ratatouille23"
             android:textColor="@color/brand_color"
-            android:textSize="48sp"
-            android:layout_marginBottom="200dp"/>
+            android:textSize="48sp" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/text_input_e_mail"
@@ -37,8 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10sp"
-            app:startIconDrawable="@drawable/person"
-            >
+            app:startIconDrawable="@drawable/person">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"

@@ -5,7 +5,7 @@
     android:id="@+id/personalFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PersonalFragment">
+    tools:context=".View.PersonalFragment">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/materialTextView"
             android:layout_marginHorizontal="10sp"
-            android:layout_marginTop="100dp">
+            android:layout_marginTop="80dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -97,13 +97,13 @@
 
             <Spinner
                 android:id="@+id/spinner"
-                android:minHeight="48dp"
                 style="@style/mySpinner"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="10dp"
                 android:gravity="center"
+                android:minHeight="48dp"
                 android:spinnerMode="dropdown" />
 
         </LinearLayout>

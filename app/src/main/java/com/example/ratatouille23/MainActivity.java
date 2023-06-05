@@ -13,6 +13,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class MainActivity extends AppCompatActivity {
     BottomNavigationView bottomBar;
     NavController navController;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +22,14 @@ public class MainActivity extends AppCompatActivity {
         bottomBar = findViewById(R.id.bottomBar);
         navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         bottomBar.setVisibility(View.GONE);
+
+        navController.addOnDestinationChangedListener((navController1, navDestination, bundle) -> {
+            if (navDestination.getId() != R.id.loginFragment) {
+                bottomBar.setVisibility(View.VISIBLE);
+            } else {
+                bottomBar.setVisibility(View.INVISIBLE);
+            }
+        });
         NavigationUI.setupWithNavController(bottomBar,
                 navController);
     }
